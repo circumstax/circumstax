@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework\Tests\States;
+namespace Circumstax\Tests\States;
 
-use Circumstax\Framework\StateAbstract;
+use Circumstax\StateAbstract;
 
 class VectorState extends StateAbstract
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework\Tests\Actions;
+namespace Circumstax\Tests\Actions;
 
-use Circumstax\Framework\ActionContract;
+use Circumstax\ActionContract;
 
 class MovementAction implements ActionContract
 {

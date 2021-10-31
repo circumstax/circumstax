@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework\Tests\States;
+namespace Circumstax\Tests\States;
 
 class NotEqualLocationState extends VectorState
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework\Tests;
+namespace Circumstax\Tests;
 
-use Circumstax\Framework\StateAbstract;
-use Circumstax\Framework\Store;
-use Circumstax\Framework\Tests\Actions\MovementAction;
-use Circumstax\Framework\Tests\Reducers\MovementReducer;
-use Circumstax\Framework\Tests\States\LocationState;
+use Circumstax\StateAbstract;
+use Circumstax\Store;
+use Circumstax\Tests\Actions\MovementAction;
+use Circumstax\Tests\Reducers\MovementReducer;
+use Circumstax\Tests\States\LocationState;
 use PHPUnit\Framework\TestCase;
 
 class StoreTest extends TestCase

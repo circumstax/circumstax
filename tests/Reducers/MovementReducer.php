@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework\Tests\Reducers;
+namespace Circumstax\Tests\Reducers;
 
-use Circumstax\Framework\ActionContract;
-use Circumstax\Framework\ReducerContract;
-use Circumstax\Framework\StateAbstract;
-use Circumstax\Framework\Tests\Actions\MovementAction;
-use Circumstax\Framework\Tests\States\LocationState;
+use Circumstax\ActionContract;
+use Circumstax\ReducerContract;
+use Circumstax\StateAbstract;
+use Circumstax\Tests\Actions\MovementAction;
+use Circumstax\Tests\States\LocationState;
 use JetBrains\PhpStorm\Pure;
 
 class MovementReducer implements ReducerContract

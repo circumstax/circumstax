@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework\Tests;
+namespace Circumstax\Tests;
 
-use Circumstax\Framework\StateAbstract;
-use Circumstax\Framework\Tests\States\Bar;
-use Circumstax\Framework\Tests\States\Foo;
-use Circumstax\Framework\Tests\States\LocationState;
-use Circumstax\Framework\Tests\States\NotEqualLocationState;
-use Circumstax\Framework\Tests\States\VectorState;
+use Circumstax\StateAbstract;
+use Circumstax\Tests\States\Bar;
+use Circumstax\Tests\States\Foo;
+use Circumstax\Tests\States\LocationState;
+use Circumstax\Tests\States\NotEqualLocationState;
+use Circumstax\Tests\States\VectorState;
 use JetBrains\PhpStorm\Pure;
 use PHPUnit\Framework\TestCase;
 

@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Circumstax\\Framework\\": "src/"
+            "Circumstax\\": "src/"
         }
     },
     "require": {
@@ -24,7 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Circumstax\\Framework\\Tests\\": "tests/"
+            "Circumstax\\Tests\\": "tests/"
         }
     }
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Circumstax\Framework;
+namespace Circumstax;
 
 use ReflectionClass;
 
